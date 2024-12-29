@@ -31,12 +31,4 @@ public class Reservasi {
         return tglCekout;
     }
 
-    public void simpanReservasi() {
-        String reservasi = "Pelanggan: " + pelanggan.getNama() + ", Kamar: " + kamar.getNokamar() + ", Check-in: " + tglCekin + ", Check-out: " + tglCekout;
-        try (FileWriter writer = new FileWriter("reservasi.txt", true)) {
-            writer.write(reservasi + "\n");
-        } catch (IOException e) {
-            System.out.println("Terjadi kesalahan saat menulis file: " + e.getMessage());
-        }
-    }
 }
