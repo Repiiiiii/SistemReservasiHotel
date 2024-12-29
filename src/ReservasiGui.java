@@ -94,6 +94,7 @@ public class ReservasiGui {
                 kamarArea.append("Kamar 101 - Standard\n");
                 kamarArea.append("Kamar 102 - Deluxe\n");
                 kamarArea.append("Kamar 103 - Suite\n");
+                kamarArea.append("Kamar 104 - Family Room\n");
 
                 kamarFrame.add(new JScrollPane(kamarArea));
                 kamarFrame.setVisible(true);
